@@ -3,10 +3,10 @@
 # Declare variables to be passed into your templates.
 
 nginx:
-  replicaCount: 2
+  replicaCount: 1 
   image:
     repo: hwchiu/hiskio-gitops
     tag: 4439d34
   pullPolicy: Always
-  prefix: webhook-demo-again
+  prefix: ch3-demo
 hook: true
